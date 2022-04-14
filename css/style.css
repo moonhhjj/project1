@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+/* 공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear: both;}
+
+.wrap{width: 1920px; margin: 0 auto;}
+
+/* 헤드부분 */
+.header{padding: 20px 0;}
+.logo{width: 150px; height: 50px; float: left; padding-left: 60px;}
+.menu{width: 300px; height: 20px; float:right; padding: 20px 0; color:#555a6d; padding-right: 60px; }
+.menu li{width: 100px; float: left; text-align: center;}
+
+/* 메인이미지부분 */
+.mainimg{width: 1920px; height: 450px; background-image: url(../images/mainimg.jpg);}
+
+/* 콘텐츠부분 */
+.box2{width: 1920px; height: 523px; background-image: url(../images/back.jpg);}
+.box2>div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px;}
+.btn{width: 337px; height: 69px; border: 7px solid #733eac; border-radius: 40px; line-height: 69px; margin: 0 auto; margin-top: 29px;font-family: 'Noto Sans KR', sans-serif; color: #733eac; font-size: 35.31px; background-color: #fff;}
+.box3{width: 1920px;}
+.box3_left{width: 50%;  height: 639px; background-color: #f56c98; float: left;}
+.box3_left div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box3_left div>h1{padding-bottom: 93px;}
+.box3_left div>p{padding-top: 86px;}
+.box3_right{width: 50%; height: 639px; background-color: #00aeef; float: right;}
+.box3_right div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box3_right div>h1{padding-bottom: 73px;}
+.box3_right div>p{padding-top: 27px;}
+.box4{width: 1920px;}
+.box4_left{width: 50%; height: 639px; background-color: #c59cfa; float: left;}
+.box4_left div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box4_left div>h1{padding-bottom: 50px;}
+.box4_left div>p{padding-top: 39px;}
+.box4_right{width: 50%; height: 639px; background-color: #733eac; float: right;}
+.box4_right div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box4_right div>h1{padding-bottom: 63px;}
+.box4_right div>p{padding-top: 54px;}
+
+ /* 푸터부분 */
+ .footer{width:1920px; height:171px; background-color:#282828;}
+ .copyright{text-align: center; padding: 43px 0; color: #bdc5d2;}
+ .sns{width: 145px; margin: 0 auto; }
+ .sns li{float: left;}
+ .sns2{padding: 0 9px;}
+ .sns li img{vertical-align: middle;}
+ 
